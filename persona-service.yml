@@ -1,5 +1,5 @@
 server:
-  port: ${PORT:1010}
+  port:${PORT:8891} 
 message: Configuración de Persona levantado en el servidor!
 spring:
   datasource:
