@@ -6,7 +6,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     password: 12345678
     username: root
-    url: jdbc:mysql://localhost:3306/crud?serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/citaclinic?serverTimezone=UTC
   jpa:
     hibernate:
       ddl-auto: update
