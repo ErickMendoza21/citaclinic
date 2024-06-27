@@ -1,6 +1,5 @@
 server:
-   port: ${PORT:8891} 
-message: Configuración de Persona levantado en el servidor!
+  port: ${PORT:8891} 
 spring:
   cloud:
     config:
