@@ -1,0 +1,17 @@
+server:
+  port: ${PORT:8893}
+message: Configuración de Recepcionista levantado en el servidor!
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: 12345678
+    username: root
+    url: jdbc:mysql://localhost:3306/citaclinic?serverTimezone=UTC
+  jpa:
+    hibernate: 
+      ddl-auto: update
+      database-platform: org.hibernate.dialect.MySQL5Dialect
+  cloud:
+    config:
+      uri: http://localhost:8890
