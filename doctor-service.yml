@@ -5,7 +5,7 @@ eureka:
   client:
     fetch-registry: true
     serviceurl:
-      defaultZone: http://localhost:8880/eureka/
+      defaultZone: http://localhost:8850/eureka/
       
 message: Configuración de Doctor levantado en el servidor!
 
