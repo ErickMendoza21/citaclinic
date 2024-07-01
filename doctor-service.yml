@@ -1,5 +1,12 @@
 server:
   port: ${PORT:8892}
+
+  eureka:
+  client:
+    fetch-registry: true
+    serviceurl:
+      defaultZone: http://localhost:8880/eureka/
+      
 message: Configuración de Doctor levantado en el servidor!
 
 spring:
