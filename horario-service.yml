@@ -1,5 +1,5 @@
 server:
-  port: ${PORT:8897}
+  port: ${PORT:8893}
 
 eureka:
   client:
